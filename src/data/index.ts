@@ -43,7 +43,7 @@ export const reviews = [
 	{
 		content:
 			"I've been wearing my Vox watch for over a year now, and I'm extremely impressed with its performance. Not only does it look stunning, but it also keeps time flawlessly. The quality and reliability of this watch are unmatched. It's become an essential part of my everyday style",
-		name: "Tejas Reddy",
+		name: "TejuReddy",
 		date: "Feb 17, 2025",
 	},
 	{
