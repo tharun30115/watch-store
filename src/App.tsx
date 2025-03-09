@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Faq from "./components/Faq";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Order from "./components/Order";
+import Overview from "./components/Overview";
+import Reviews from "./components/Reviews";
+import Video from "./components/Video";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+	return (
+		<div className="w-full flex flex-col">
+			<Navbar />
+			<Header />
+			<Overview />
+			<Video />
+			<Reviews />
+			<Features />
+			<Faq />
+			<Order />
+			<Footer />
+		</div>
+	);
+};
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
-export default App
+export default App;
