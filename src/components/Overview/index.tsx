@@ -14,7 +14,7 @@ const Overview = () => {
 			<div className="flex flex-col gap-10">
 				<span className="font-Mirza text-primary text-[72px]">Product Overview</span>
 				<p className="font-Lora text-primary text-lg max-w-[640px]">
-					Welcome to the elegant world of Reddy. Our watches blend exquisite craftsmanship with
+					Welcome to the elegant world of Vox. Our watches blend exquisite craftsmanship with
 					timeless design, making them the perfect accessory for any occasion. Each timepiece
 					is meticulously handcrafted to ensure superior quality and precision. Explore our
 					collection and discover the artistry that defines us.
