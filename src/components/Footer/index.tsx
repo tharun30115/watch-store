@@ -48,7 +48,7 @@ const Footer = () => {
 						<span className="text-primary font-Mirza text-[72px]">Stay Connected</span>
 						<div className="flex items-center gap-3">
 							<MailOutline cssClasses={"!text-icons !fill-icons"} />
-							<span className="text-primary font-Lora text-lg">Youremail@example.com</span>
+							<span className="text-primary font-Lora text-lg">support@vox.com</span>
 						</div>
 						<div className="flex flex-col gap-3">
 							<span className="text-primary font-Mirza text-[72px]">Social Info</span>
@@ -65,7 +65,7 @@ const Footer = () => {
 			</div>
 			<div className="w-full bg-[#F8F8F8] h-[80px] flex items-center justify-center">
 				<span className="text-primary font-Lora text-lg font-medium">
-					© 2024 Reddy. Developed By CodeItDown
+					© 2025 Vox. made with ✨ by <a href="https://github.com/tharun30115">tharun</a>
 				</span>
 			</div>
 		</div>
