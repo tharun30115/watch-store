@@ -4,7 +4,7 @@ import { navItems } from "../../data";
 const Navbar = () => {
 	return (
 		<div className="w-full bg-white h-[97px] flex items-center justify-between lg:px-14 px-5">
-			<div className="text-primary font-Mirza text-[50px] mt-[-15px]">Reddy.</div>
+			<div className="text-primary font-Mirza text-[50px] mt-[-15px]">Vox</div>
 			<div className="lg:flex items-center gap-14 hidden">
 				{navItems.map((item) => (
 					<a
