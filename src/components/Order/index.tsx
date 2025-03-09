@@ -25,7 +25,7 @@ const Order = () => {
 						Watch Model: <span className="font-normal">Vox Watch</span>
 					</div>
 					<div className="font-Lora text-lg font-semibold text-white">
-						Price: <span className="font-normal">$2000</span>
+						Price: <span className="font-normal">₹1000</span>
 					</div>
 					<div className="font-Lora text-lg font-semibold text-white flex items-center gap-2">
 						Choose Strap Color:{" "}
