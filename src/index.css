@@ -14,3 +14,23 @@ body {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
+
+
+html,
+* {
+	scroll-behavior: smooth !important;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+	height: 9px;
+}
+::-webkit-scrollbar * {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: #3d3a38 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(41, 39, 38, 0.761) important;
+}
