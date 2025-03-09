@@ -16,13 +16,13 @@ const Order = () => {
 				<div className="flex flex-col gap-3">
 					<span className="text-white font-Mirza text-[72px]">Order Your Choice</span>
 					<p className="text-white font-Lora text-lg max-w-[520px]">
-						Experience the elegance of Reddy on your wrist. Place your order today and enjoy
+						Experience the elegance of Vox on your wrist. Place your order today and enjoy
 						free worldwide shipping.
 					</p>
 				</div>
 				<div className="flex flex-col gap-4">
 					<div className="font-Lora text-lg font-semibold text-white">
-						Watch Model: <span className="font-normal">Reddy Watch</span>
+						Watch Model: <span className="font-normal">Vox Watch</span>
 					</div>
 					<div className="font-Lora text-lg font-semibold text-white">
 						Price: <span className="font-normal">$2000</span>
